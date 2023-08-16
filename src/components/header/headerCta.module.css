@@ -1,0 +1,9 @@
+.headerCta {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    padding-right: 32px;
+}
+.menuIcon {
+    cursor: pointer;
+}

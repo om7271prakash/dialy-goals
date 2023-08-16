@@ -1,0 +1,9 @@
+.headerMenu {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    padding-left: 32px;
+}
+.menuIcon {
+    cursor: pointer;
+}

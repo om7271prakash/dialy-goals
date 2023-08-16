@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.headerLogo {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+}

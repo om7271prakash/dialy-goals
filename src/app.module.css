@@ -1,0 +1,8 @@
+.container {
+    position: relative;   
+    min-height: 100vh;
+}
+.main-body {
+    padding-top: 24px;
+    padding-bottom: calc(60px + 24px);
+}

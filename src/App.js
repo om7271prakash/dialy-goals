@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./components/footer";
+import Header from "./components/header";
+import styles from './app.module.css'
+import Stepper from "./components/common/stepper/Stepper";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container}>
+      <Header />
+      <div className={styles['main-body']}>
+        <Stepper />
+      </div>
+      <Footer />
     </div>
   );
 }
